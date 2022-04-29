@@ -59,3 +59,79 @@ nav{
 .nav-items li a:hover {
     color: #ccc;
 }
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.default-btn:hover{
+    background-color: #22bb5f;
+    color: #fff;
+}
+
+/* main banner */
+
+.main-banner{
+    background-image: url('../img/mainbanner.png');
+    padding: 10em 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main-banner h1, .main-banner p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+ .main-banner p{
+    font-size: 32px;
+}
+
+.specialties-container{
+    padding: 5em 0;
+}
+
+.specialties-container ul{
+    display: flex;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.specialties-container ul li{
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px; */
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.fa-shield-alt{
+    color: green;
+}
+
+.fa-rocket{
+    color: red;
+}
+
+.fa-comments{
+    color: gold;
+}
+
